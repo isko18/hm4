@@ -19,7 +19,7 @@ class Bank:
         self.name = name
         self.__balanse = __balanse
         return f"Имя: {self.name}, Balanse: {self.__balanse + self.__balance}"
-ban = Bank("askhat")
+ban = Bank("isko")
 print(ban.money_x())
 print(ban._kill())
 print(ban.user("bekbolot", 100))

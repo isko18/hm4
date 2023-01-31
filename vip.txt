@@ -1,0 +1,9 @@
+git init 
+git add .
+git commit -m "first commit"
+git branch -M isko
+git checkout isko
+git remote add origin - ссылка к репазитори
+git push -u origin isko
+git remote remove origin - удаление
+
