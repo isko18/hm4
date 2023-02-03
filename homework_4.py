@@ -2,15 +2,16 @@ class Pop:
     def __init__(self,name) -> None:
         self.name = name
 class Bop:
-    def __init__(self,age) -> None:
+    def __init__(self, age) -> None:
         self.age = age
+
 class Vop:
     def a():
         pass
 class Top:
     def b():
         pass
-class Isko(Pop,Bop,Vop,Top):
+class Isko(Pop, Bop, Vop, Top):
     def __init__(self, name,age) -> None:
         Pop.__init__(self,name)
         Bop.__init__(self,age)

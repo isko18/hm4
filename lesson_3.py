@@ -47,21 +47,21 @@ class Person:
 per1 = Person('beka', 'D.Y', 19, '1234567')
 per1.set_age(12)
 per1.get_age()
-# per1._name = 'ivan'
-# per1._Person__key = 1
+per1._name = 'ivan'
+per1._Person__key = 1
 
-# per1.keys()
-#
-# per1._s()
+per1.keys()
+
+per1._s()
 
 p = 'eyrfhdhs'
 
 
-# print(dir(per1))
+print(dir(per1))
 
 
-# print(dir(p))
-# print(p.upper())
+print(dir(p))
+print(p.upper())
 
 
 class Micro:
@@ -89,9 +89,9 @@ class Micro:
 c = Micro('samsung')
 
 
-# c.on()
-# c.open()
-# c._off()
+c.on()
+c.open()
+c._off()
 
 
 class Чайник:
@@ -113,5 +113,5 @@ class Чайник:
 
 
 h = Чайник('tefal')
-# h.on()
-# h._woter()
+h.on()
+h._woter()
